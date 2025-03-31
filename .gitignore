@@ -1,2 +1,3 @@
-./original2_top_view_person_dataset
-./fisheye_person_dataset
+original2_top_view_person_dataset/
+fisheye_person_dataset/
+runs/
