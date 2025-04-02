@@ -74,7 +74,7 @@ The model chosen for training is the **YOLOv11m** model, as it balances performa
 
 #### YOLOv11m
 <p align="center">
-<img src="./readme_images/yolo11m_pred" alt="Original Bounding Box" width="300">
+<img src="./readme_images/yolo11m_pred.jpg" alt="YOLOv11m predictions" width="300">
 </p>
 
 #### 5 EPOCHS
