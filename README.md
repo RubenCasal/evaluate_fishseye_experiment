@@ -76,18 +76,22 @@ The model chosen for training is the **YOLOv11m** model, as it balances performa
 <p align="center">
 <img src="./readme_images/val_batch1_labels.jpg" alt="Original Bounding Box" width="300">
 </p>
+
 #### 5 EPOCHS
 <p align="center">
 <img src="./readme_images/5_epoch_pred.jpg" alt="5 epochs" width="300">
 </p>
+
 #### 10 EPOCHS
 <p align="center">
 <img src="./readme_images/10_epoch_pred.jpg" alt="10 epochs" width="300">
 </p>
+
 #### 20 EPOCHS
 <p align="center">
 <img src="./readme_images/20_epoch_pred.jpg" alt="20 epochs" width="300">
 </p>
+
 #### 40 EPOCHS
 <p align="center">
 <img src="./readme_images/40_epoch_pred.jpg" alt="40 epochs" width="300">
