@@ -67,58 +67,51 @@ The model chosen for training is the **YOLOv11m** model, as it balances performa
 
 2. **Baseline Comparison**:
    - The results of the fine-tuned model were compared against the original YOLOv11m model without any fine-tuning on fisheye data.
+
+
+<div align="center">
+
+| Model         | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 |
+|--------------|----------|-------|--------|-------------|
+| YOLOv11m      | 0.7545   | 0.2961| 0.5269 | 0.2844      |
+| **5 Epochs**  | 0.9328   | 0.2535| 0.6001 | 0.2930      |
+| **10 Epochs** | 0.9466   | 0.3955| 0.6763 | 0.2723      |
+| **20 Epochs** | 0.9160   | 0.3316| 0.6327 | 0.2738      |
+| **40 Epochs** | 0.9704   | 0.2657| 0.6201 | 0.3241      |
+
+</div>
+
+<p align="center">
+<img src="./readme_images/yolov11m_training_metrics.png" alt="Original Bounding Box" width="550">
+</p>
+
 #### Original labels
 <p align="center">
 <img src="./readme_images/val_batch1_labels.jpg" alt="Original Bounding Box" width="300">
 </p>
 
 #### YOLOv11m
-metrics/precision(B): 0.7545219638242894
-metrics/recall(B): 0.2961460446247465
-metrics/mAP50(B): 0.5268551552325231
-metrics/mAP50-95(B): 0.28439953685745173
 
 <p align="center">
 <img src="./readme_images/yolo11m_pred.jpg" alt="YOLOv11m predictions" width="300">
 </p>
 
 #### 5 EPOCHS
-metrics/precision(B): 0.9328358208955224
-metrics/recall(B): 0.2535496957403651
-metrics/mAP50(B): 0.6000917524816929
-metrics/mAP50-95(B): 0.29303410488767884
-
-
 <p align="center">
 <img src="./readme_images/5_epoch_pred.jpg" alt="5 epochs" width="300">
 </p>
 
 #### 10 EPOCHS
-metrics/precision(B): 0.9466019417475728
-metrics/recall(B): 0.39553752535496955
-metrics/mAP50(B): 0.6762983267241321
-metrics/mAP50-95(B): 0.27234373471904727
 <p align="center">
 <img src="./readme_images/10_epoch_pred.jpg" alt="10 epochs" width="300">
 </p>
 
 #### 20 EPOCHS
-metrics/precision(B): 0.9159663865546218
-metrics/recall(B): 0.3316430020283976
-metrics/mAP50(B): 0.6326851684246009
-metrics/mAP50-95(B): 0.27377138551964486
-
 <p align="center">
 <img src="./readme_images/20_epoch_pred.jpg" alt="20 epochs" width="300">
 </p>
 
 #### 40 EPOCHS
-metrics/precision(B): 0.9703703703703703
-metrics/recall(B): 0.2657200811359026
-metrics/mAP50(B): 0.6200547805659321
-metrics/mAP50-95(B): 0.3240537863628162
-
-
 <p align="center">
 <img src="./readme_images/40_epoch_pred.jpg" alt="40 epochs" width="300">
 </p>
