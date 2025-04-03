@@ -50,13 +50,24 @@ These values are used to compute the Look-Up Table (LUT) for fisheye distortion 
 ## 📊 Data and Dataset
 To evaluate the effectiveness of the FishyFy tool, two datasets were selected based on their similarity in perspective and purpose:
 
-1. **Real Fisheye Dataset**: A pedestrian detection dataset obtained from Roboflow. The images are captured from a CCTV camera positioned overhead, showing people from a top view with significant fisheye distortion.
+1. **Real Fisheye Dataset**: A pedestrian detection dataset obtained from Roboflow. The images are captured from a CCTV camera positioned overhead, showing people from a top view with significant fisheye distortion. The dataset contains images from different cameras, but for this experiment, only the images from one specific camera were chosen to maintain consistency. (Roboflow Dataset URL: [https://universe.roboflow.com/sang-oacf6/nguyensang](https://universe.roboflow.com/nathan-odic/fish-eye))
+<p align="center">
+    <img src="./readme_images/original_image.jpg" alt="Original Bounding Box" width="250" style="display: inline-block; margin-right: 10px;">
+    <img src="./readme_images/original_image2.jpg" alt="Training Metrics" width="250" style="display: inline-block;">
+</p>
 
-2. **Regular Top-View Pedestrian Dataset**: A dataset of pedestrians captured from a top view but without fisheye distortion. This dataset serves as the base for generating synthetic fisheye data using FishyFy.
+3. **Regular Top-View Pedestrian Dataset**: A dataset of pedestrians captured from a top view but without fisheye distortion. This dataset serves as the base for generating synthetic fisheye data using FishyFy. (Roboflow Dataset URL: [https://universe.roboflow.com/nathan-odic/fish-eye](https://universe.roboflow.com/sang-oacf6/nguyensang))
+<p align="center">
+    <img src="./readme_images/training_image.jpg" alt="Original Bounding Box" width="250" style="display: inline-block; margin-right: 10px;">
+    <img src="./readme_images/training_image2.jpg" alt="Training Metrics" width="250" style="display: inline-block;">
+</p>
 
 ### Dataset Matching
 Since the goal is to replicate the fisheye distortion from the real dataset, the calibration parameters for the synthetic data were obtained through trial and error. The FishyFy tool was configured to generate distortion similar to the CCTV fisheye effect to ensure realistic synthetic data.
-
+<p align="center">
+    <img src="./readme_images/before_transformation.jpg" alt="Original Bounding Box" width="250" style="display: inline-block; margin-right: 10px;">
+    <img src="./readme_images/after_transformation.jpg" alt="Training Metrics" width="250" style="display: inline-block;">
+</p>
 ## 🧠 Training and Results
 
 The model chosen for training is the **YOLOv11m** model, as it balances performance and efficiency. To evaluate the impact of synthetic fisheye data, the following training strategy was applied:
