@@ -53,7 +53,7 @@ D = [-0.614216, 0.060412, -0.054711, 0.011151]
 ```
 These values are used to compute the Look-Up Table (LUT) for fisheye distortion transformation, simulating the specific distortion profile of the T265 camera.
 
-## 📊 Data and Dataset
+## 📊 Datasets
 To evaluate the effectiveness of the FishyFy tool, two datasets were selected based on their similarity in perspective and purpose:
 
 1. **Real Fisheye Dataset**: A pedestrian detection dataset obtained from Roboflow. The images are captured from a CCTV camera positioned overhead, showing people from a top view with significant fisheye distortion. The dataset contains images from different cameras, but for this experiment, only the images from one specific camera were chosen to maintain consistency.
