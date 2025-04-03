@@ -53,7 +53,7 @@ To evaluate the effectiveness of the FishyFy tool, two datasets were selected ba
     <img src="./readme_images/original_image2.jpg" alt="Training Metrics" width="250" style="display: inline-block;">
 </p>
 
-3. **Regular Top-View Pedestrian Dataset**: A dataset of pedestrians captured from a top view but without fisheye distortion. This dataset serves as the base for generating synthetic fisheye data using FishyFy.
+2. **Regular Top-View Pedestrian Dataset**: A dataset of pedestrians captured from a top view but without fisheye distortion. This dataset serves as the base for generating synthetic fisheye data using FishyFy.
  (Roboflow Dataset URL: https://universe.roboflow.com/sang-oacf6/nguyensang)
 <p align="center">
     <img src="./readme_images/training_image.jpg" alt="Original Bounding Box" width="250" style="display: inline-block; margin-right: 10px;">
