@@ -42,16 +42,6 @@ D = [k1, k2, p1, p2]
 - **Barrel Distortion**: Caused by negative radial coefficients (`k1`, `k2`), where straight lines near the edges curve inward, giving a bulging effect.
 - **Pincushion Distortion**: Caused by positive radial coefficients, where straight lines near the edges curve outward, creating a pinched effect.
 
-### Example Parameters
-For the Intel RealSense T265 camera, the calibration parameters used in this experiment are:
-```
-K = [[284.509100, 0, 2.0],
-     [0, 282.941856, 2.0],
-     [0, 0, 1.000000]]
-
-D = [-0.614216, 0.060412, -0.054711, 0.011151]
-```
-These values are used to compute the Look-Up Table (LUT) for fisheye distortion transformation, simulating the specific distortion profile of the T265 camera.
 
 ## 📊 Datasets
 To evaluate the effectiveness of the FishyFy tool, two datasets were selected based on their similarity in perspective and purpose:
