@@ -73,49 +73,51 @@ The model chosen for training is the **YOLOv11m** model, as it balances performa
 </p>
 
 #### YOLOv11m
-metrics/precision(B): 0.8692220969560316
-metrics/recall(B): 0.38821752265861026
-metrics/mAP50(B): 0.6340802881225837
-metrics/mAP50-95(B): 0.4202330898314539
+metrics/precision(B): 0.7545219638242894
+metrics/recall(B): 0.2961460446247465
+metrics/mAP50(B): 0.5268551552325231
+metrics/mAP50-95(B): 0.28439953685745173
 
 <p align="center">
 <img src="./readme_images/yolo11m_pred.jpg" alt="YOLOv11m predictions" width="300">
 </p>
 
 #### 5 EPOCHS
-metrics/precision(B): 0.9070631970260223
-metrics/recall(B): 0.2457200402819738
-metrics/mAP50(B): 0.5809654801843452
-metrics/mAP50-95(B): 0.26226917316600373
+metrics/precision(B): 0.9328358208955224
+metrics/recall(B): 0.2535496957403651
+metrics/mAP50(B): 0.6000917524816929
+metrics/mAP50-95(B): 0.29303410488767884
+
 
 <p align="center">
 <img src="./readme_images/5_epoch_pred.jpg" alt="5 epochs" width="300">
 </p>
 
 #### 10 EPOCHS
-metrics/precision(B): 0.8936430317848411
-metrics/recall(B): 0.3680765357502518
-metrics/mAP50(B): 0.6385027762824563
-metrics/mAP50-95(B): 0.2620329039243006
+metrics/precision(B): 0.9466019417475728
+metrics/recall(B): 0.39553752535496955
+metrics/mAP50(B): 0.6762983267241321
+metrics/mAP50-95(B): 0.27234373471904727
 <p align="center">
 <img src="./readme_images/10_epoch_pred.jpg" alt="10 epochs" width="300">
 </p>
 
 #### 20 EPOCHS
-metrics/precision(B): 0.8796414852752881
-metrics/recall(B): 0.3459214501510574
-metrics/mAP50(B): 0.6202237977782357
-metrics/mAP50-95(B): 0.2717693063682084
+metrics/precision(B): 0.9159663865546218
+metrics/recall(B): 0.3316430020283976
+metrics/mAP50(B): 0.6326851684246009
+metrics/mAP50-95(B): 0.27377138551964486
 
 <p align="center">
 <img src="./readme_images/20_epoch_pred.jpg" alt="20 epochs" width="300">
 </p>
 
 #### 40 EPOCHS
-metrics/precision(B): 0.8896457765667575
-metrics/recall(B): 0.3288016112789527
-metrics/mAP50(B): 0.617254391562303
-metrics/mAP50-95(B): 0.3010420292873023
+metrics/precision(B): 0.9703703703703703
+metrics/recall(B): 0.2657200811359026
+metrics/mAP50(B): 0.6200547805659321
+metrics/mAP50-95(B): 0.3240537863628162
+
 
 <p align="center">
 <img src="./readme_images/40_epoch_pred.jpg" alt="40 epochs" width="300">
